@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+boby {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+#header {
+  padding: 20px 0;
+}
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#header .header a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+  color: black;
+  padding: 0 20px;
+}
+
+#hero {
+  padding: 50px 0;
+}
+#hero .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .hero--title h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: black;
+}
+#hero .hero--title p {
+  width: 497px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  padding: 20px 0;
+}
+#hero .hero--title button {
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  width: 208px;
+  height: 47px;
+  background: red;
+  border-radius: 2px;
+}
+#hero .hero--title button:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+  transform: scale(0.9);
+  background: red;
+  border: 2px solid red;
+  box-shadow: 0 5px 5px red, 0 0 20px red, 0 0 60px red, 0 0 150px red;
+}
+
+#recent {
+  background: #EDF7FA;
+  padding: 50px 0;
+}
+#recent .recent--title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#recent .recent--title h1 {
+  font-weight: 400;
+  font-size: 22px;
+  display: flex;
+  align-items: flex-end;
+  color: #21243D;
+}
+#recent .recent--title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #00A8CC;
+}
+#recent .recent--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+#recent .recent--block__card {
+  padding: 25px 0 0 30px;
+  width: 418px;
+  height: 295px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+}
+#recent .recent--block__card h1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+}
+#recent .recent--block__card h4 {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 30px 0;
+}
+#recent .recent--block__card h4 span {
+  padding: 20px;
+}
+#recent .recent--block__card p {
+  width: 368px;
+  height: 117px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#works {
+  padding: 50px 0;
+}
+#works h1 {
+  font-weight: 400;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+#works .works--block {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 2px solid #E0E0E0;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+#works .works--block__title {
+  margin-left: 20px;
+}
+#works .works--block__title h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: black;
+}
+#works .works--block__title--subtitle {
+  padding: 20px 0;
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+}
+#works .works--block__title--subtitle h3 {
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  width: 62px;
+  height: 25px;
+  background: midnightblue;
+  border-radius: 16px;
+}
+#works .works--block__title--subtitle h3:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+  transform: scale(0.9);
+  background: midnightblue;
+  border: 2px solid midnightblue;
+  box-shadow: 0 5px 5px midnightblue, 0 0 20px midnightblue, 0 0 60px midnightblue, 0 0 150px midnightblue;
+}
+#works .works--block__title--subtitle h5 {
+  font-weight: 400;
+  font-size: 20px;
+  color: lightslategrey;
+  margin-left: 20px;
+}
+#works .works--block__title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+  width: 520px;
+}
+
+#footer {
+  padding: 50px 0;
+}
+#footer .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#footer .footer--icon a {
+  font-size: 45px;
+  color: black;
+  margin: 0 10px;
+}
+#footer .footer p {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #21243D;
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,224 @@
+@import "reset";
+@import "mixin";
+@import "variables";
+
+#header {
+  padding: 20px 0;
+
+  .header {
+    @include end();
+
+    a {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 29px;
+      text-align: right;
+      color: $bl;
+      padding: 0 20px;
+    }
+  }
+}
+
+#hero {
+  padding: 50px 0;
+
+  .hero {
+    @include between();
+
+    &--title {
+      h1 {
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 60px;
+        color: $bl;
+      }
+
+      p {
+        width: 497px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $bl;
+        padding: 20px 0;
+      }
+
+      button {
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 208px;
+        height: 47px;
+        background: $r;
+        border-radius: 2px;
+      }
+      button:hover {
+        cursor: pointer;
+        color: #FFFFFF;
+        transform: scale(0.9);
+        background: $r;
+        border: 2px solid  $r;
+        box-shadow: 0 5px 5px  $r,
+        0 0 20px  $r,
+        0 0 60px  $r,
+        0 0 150px  $r;
+      }
+    }
+  }
+}
+
+#recent {
+  background: #EDF7FA;
+  padding: 50px 0;
+
+  .recent {
+    &--title {
+      @include between();
+
+      h1 {
+        font-weight: 400;
+        font-size: 22px;
+        display: flex;
+        align-items: flex-end;
+        color: #21243D;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+        color: #00A8CC;
+      }
+    }
+
+    &--block {
+      @include between();
+      padding-top: 30px;
+
+      &__card {
+        padding: 25px 0 0 30px;
+        width: 418px;
+        height: 295px;
+        background: #FFFFFF;
+        box-shadow: 0 4px 10px rgba(187, 225, 250, 0.25);
+        border-radius: 4px;
+
+        h1 {
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 38px;
+        }
+
+        h4 {
+          font-weight: 400;
+          font-size: 18px;
+          padding: 30px 0;
+
+          span {
+            padding: 020px;
+          }
+        }
+
+        p {
+          width: 368px;
+          height: 117px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+
+#works {
+  padding: 50px 0;
+
+  h1 {
+    font-weight: 400;
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
+  .works {
+    &--block {
+      @include flex();
+      border-bottom:2px solid #E0E0E0;
+      padding-bottom: 20px ;
+      margin-bottom: 30px;
+      &__title {
+        margin-left: 20px;
+
+        h2 {
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 44px;
+          color: $bl;
+        }
+          &--subtitle {
+            padding: 20px 0;
+            @include flex();
+            align-items: center;
+
+            h3 {
+              font-weight: 900;
+              font-size: 18px;
+              color: $wh;
+              text-align: center;
+              width: 62px;
+              height: 25px;
+              background: $mi;
+              border-radius: 16px;
+            }
+            h3:hover {
+              cursor: pointer;
+              color: #FFFFFF;
+              transform: scale(0.9);
+              background: $mi;
+              border: 2px solid  $mi;
+              box-shadow: 0 5px 5px  $mi,
+              0 0 20px  $mi,
+              0 0 60px  $mi,
+              0 0 150px  $mi;
+            }
+
+            h5 {
+              font-weight: 400;
+              font-size: 20px;
+              color: $li;
+              margin-left: 20px;
+            }
+          }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #21243D;
+          width: 520px;
+        }
+      }
+    }
+  }
+}
+
+#footer {
+  padding: 50px 0;
+  .footer {
+    @include center();
+    flex-direction: column;
+    &--icon {
+     a {
+       font-size: 45px;
+       color: $bl;
+       margin: 0 10px;
+     }
+    }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+      color: #21243D;
+      padding-top: 20px;
+    }
+  }
+}
